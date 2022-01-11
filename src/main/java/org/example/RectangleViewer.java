@@ -18,9 +18,6 @@ public class RectangleViewer extends JFrame {
     public void paint(Graphics g) {
         g.drawRect(r.x, r.y, r.width, r.height);
         g.drawRect(r1.x, r1.y, r1.width, r1.height);
-//        Rectangle r2 = r.intersection(r1);
-//        System.out.println(r2);
-//        g.fillRect(r2.x, r2.y, r2.width, r2.height);
     }
 
     public static void main(String[] args) {
